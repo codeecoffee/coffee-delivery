@@ -6,6 +6,8 @@ export const Container = styled.div`
     background-repeat: round;
     background-size: cover;
     width: 100%;
+
+    height: 544px;
     /* max-width: 1440px; */
     /* height: 544px; */
     margin: 0 auto;
@@ -21,6 +23,8 @@ export const Content = styled.div`
     max-width: 1120px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 1.5rem;
+
     /* 92 160 */
     img{
         max-width: 47600px;
