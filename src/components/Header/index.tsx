@@ -12,11 +12,16 @@ export function Header (){
                 <img src={Logo} alt="logo " />
                 <SideContent>
                     <LocationMark>
-                        <MapPin size={32} color={defaultColors["purple"]}/>
+                        
+                        <MapPin size={22} color={defaultColors["purple"]}/>
                         <span>Los Angeles, CA</span>
                     </LocationMark>
                     <CartBttn>
-                        <ShoppingCart size={32} color={defaultColors["yellow-dark"]}/>
+                        <ShoppingCart 
+                            size={22} 
+                            color={defaultColors["yellow-dark"]}
+                            weight="fill"
+                        />
                     </CartBttn>
                 </SideContent>
             </Content>
