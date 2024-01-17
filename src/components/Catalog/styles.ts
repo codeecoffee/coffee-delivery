@@ -1,13 +1,14 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.section`
-    padding: 2rem 10rem;
-
-
-`
+	padding: 2rem 10rem;
+`;
 export const Content = styled.div`
-    width: 100%;
-    max-width: 1120px;
-    padding: 0 1.5rem;
+	background-color: purple;
+	width: 100%;
+	max-width: 1120px;
+	padding: 0 1.5rem;
+`;
 
-`
+export const Items = styled.div``;
+

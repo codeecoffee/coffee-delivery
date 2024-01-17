@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     
     body, input, text-area, button{
-        font: 400 1rem Baloo, sans-serif;
+        font: 400 1rem "Baloo 2", sans-serif;
     }
     button{
         outline: 0;
