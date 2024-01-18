@@ -1,6 +1,14 @@
-import { ShoppingCartSimple } from 'phosphor-react';
+import { Minus, Plus, ShoppingCartSimple } from 'phosphor-react';
 import CoffeeImg from '../../assets/traditionalCoffee.png';
-import { Bottom, CoffeeType, Container, Content, QntBttn } from './styles';
+import { defaultColors } from '../../styles/themes/default';
+import {
+	Bottom,
+	CartBttn,
+	CoffeeType,
+	Container,
+	Content,
+	QntBttn,
+} from './styles';
 
 export function Card() {
 	return (
@@ -17,11 +25,21 @@ export function Card() {
 						<span>$</span> 9,90
 					</h2>
 					<QntBttn>
-						<button>-</button>
+						<button>
+							<Minus size={14} color={defaultColors['purple']} />
+						</button>
 						<p>1</p>
-						<button>+</button>
+						<button>
+							<Plus size={14} color={defaultColors['purple']} />
+						</button>
 					</QntBttn>
-					<ShoppingCartSimple size={22} />
+					<CartBttn>
+						<ShoppingCartSimple
+							size={22}
+							weight="fill"
+							color={defaultColors['base-card']}
+						/>
+					</CartBttn>
 				</Bottom>
 			</Content>
 		</Container>

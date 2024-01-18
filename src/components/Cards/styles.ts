@@ -62,6 +62,11 @@ export const Bottom = styled.div`
 	display: flex;
 	flex-direction: row;
 
+	max-width: 256px;
+	width: 100%;
+	justify-content: space-evenly;
+	margin-top: 30px;
+
 	h2 {
 		font-size: 1.5rem;
 		color: ${(props) => props.theme['base-text']};
@@ -88,11 +93,28 @@ export const QntBttn = styled.div`
 	padding: 8px;
 	border-radius: 6px;
 	width: 72px;
+	max-height: 38px;
 	p {
 		margin-inline: 4px;
 		font-size: 1rem;
 		color: ${(props) => props.theme['base-title']};
 	}
+	button {
+		max-height: 14px;
+		align-self: baseline;
+	}
+`;
+export const CartBttn = styled.div`
+	padding: 0.5rem;
+	background: ${(props) => props.theme['purple-dark']};
+	width: 38px;
+	height: 38px;
+	border-radius: 6px;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: -1.25rem;
 `;
 
 // <Content>

@@ -5,10 +5,18 @@ export function Catalog() {
 	return (
 		<Container>
 			<Content>
-				<h1>catalog</h1>
-                <Items>
-                    <Card/>
-                </Items>
+				<h1>Our Coffees</h1>
+				<Items>
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+				</Items>
 			</Content>
 		</Container>
 	);
